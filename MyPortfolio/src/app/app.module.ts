@@ -10,6 +10,8 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { FooterComponent } from './footer/footer.component';
 import { GreetingComponent } from './greeting/greeting.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
+import { SkillsComponent } from './skills/skills.component';
+import { SoftwareSkillsComponent } from './skills/software-skills/software-skills.component';
 
 
 @NgModule({
@@ -19,6 +21,8 @@ import { SocialMediaComponent } from './social-media/social-media.component';
     FooterComponent,
     GreetingComponent,
     SocialMediaComponent,
+    SkillsComponent,
+    SoftwareSkillsComponent,
 
   ],
   imports: [
