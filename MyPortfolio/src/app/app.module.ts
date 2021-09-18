@@ -9,6 +9,7 @@ import {AnimationModule} from "./animation/animation.module";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { FooterComponent } from './footer/footer.component';
 import { GreetingComponent } from './greeting/greeting.component';
+import { SocialMediaComponent } from './social-media/social-media.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { GreetingComponent } from './greeting/greeting.component';
     HeaderComponent,
     FooterComponent,
     GreetingComponent,
+    SocialMediaComponent,
 
   ],
   imports: [
