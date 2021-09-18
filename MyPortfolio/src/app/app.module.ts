@@ -7,12 +7,16 @@ import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import { HttpClientModule } from '@angular/common/http';
 import {AnimationModule} from "./animation/animation.module";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { FooterComponent } from './footer/footer.component';
+import { GreetingComponent } from './greeting/greeting.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    FooterComponent,
+    GreetingComponent,
 
   ],
   imports: [

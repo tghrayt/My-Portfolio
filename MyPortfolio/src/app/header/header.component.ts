@@ -5,20 +5,6 @@ import {animate, group, query, state, style, transition, trigger} from "@angular
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
   animations: [
-    // trigger('routerTransition', [
-    //   transition('* <=> *', [
-    //     query(':enter, :leave', style({ position: 'fixed', opacity: 1 })),
-    //     group([
-    //       query(':enter', [
-    //         style({ opacity:0 }),
-    //         animate('1000ms ease-in-out', style({ opacity:1 }))
-    //       ]),
-    //       query(':leave', [
-    //         style({ opacity:1 }),
-    //         animate('1000ms ease-in-out', style({ opacity:0 }))]),
-    //     ])
-    //   ])
-    // ])
 
     trigger('fadein', [
       state('in', style({
