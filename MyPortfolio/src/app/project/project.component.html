@@ -1,0 +1,13 @@
+<div class="main" id="projects" wmAnimate="landing" aos speed="faster">
+    <h1 class="project-title">My Work 📂</h1>
+    
+    <div class="repo-cards-div-main" >
+      <app-github-repo-card *ngFor="let project of $projects | slice:0:4; let i = index" [github]="project" [index]="i"></app-github-repo-card>
+    </div>
+    <div class="github__chart">
+        <app-github-calendar></app-github-calendar> 
+       </div>
+    <div class="project-button"><a class="main-button" href="https://github.com/tghrayt" target="_blank">More Projects</a></div>
+  </div>
+  
+  

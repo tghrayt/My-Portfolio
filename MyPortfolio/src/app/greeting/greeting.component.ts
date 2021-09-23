@@ -12,7 +12,7 @@ export class GreetingComponent implements OnInit {
    greeting= {
     username: "Ait tghrayt youssef",
     title: "Hi all, I'm Youssef",
-    subTitle: "Software Engineer 🚀 having an experience of building Web applications with JavaScript / Angular / .NET / JAVA JEE and some other cool libraries and frameworks.",
+    subTitle: "Software Engineer 🚀 having an experience of building Web applications with JavaScript / Angular / .NET and some other cool libraries and frameworks.",
     resumeLink: "https://drive.google.com/file/d/1YDL67gpUNYOLilOKLSp_Dee40fCtILw7/view?usp=sharing"
     }
 

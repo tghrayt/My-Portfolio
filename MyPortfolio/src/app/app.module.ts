@@ -12,6 +12,15 @@ import { GreetingComponent } from './greeting/greeting.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SoftwareSkillsComponent } from './skills/software-skills/software-skills.component';
+import { EducationComponent } from './education/education.component';
+import { SkillProgressComponent } from './skill-progress/skill-progress.component';
+import { ProjectComponent } from './project/project.component';
+import { GithubRepoCardComponent } from './project/github-repo-card/github-repo-card.component';
+import { GithubCalendarComponent } from './github-calendar/github-calendar.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ExperienceCardComponent } from './experience/experience-card/experience-card.component';
+import { ContactComponent } from './contact/contact.component';
+import { TopButtonComponent } from './top-button/top-button.component';
 
 
 @NgModule({
@@ -23,6 +32,15 @@ import { SoftwareSkillsComponent } from './skills/software-skills/software-skill
     SocialMediaComponent,
     SkillsComponent,
     SoftwareSkillsComponent,
+    EducationComponent,
+    SkillProgressComponent,
+    ProjectComponent,
+    GithubRepoCardComponent,
+    GithubCalendarComponent,
+    ExperienceComponent,
+    ExperienceCardComponent,
+    ContactComponent,
+    TopButtonComponent,
 
   ],
   imports: [
