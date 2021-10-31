@@ -49,7 +49,7 @@
   
   /* Media Query */
   
-  @media (max-width: 1456px) {
+  @media (max-width: 700px) {
     .skills-bar {
       line-height: 4rem;
       width: 100%;
@@ -131,5 +131,50 @@
       transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
       transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
     }
+  }
+  .skills-main-div {
+    display: flex;
+  }
+  .skills-main-div > * {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  .skills-main-div {
+    flex-direction: column
+  }
+  .skills-image-div > img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (max-width: 100%) {
+    .skills-heading {
+      font-size: 30px;
+      text-align: center;
+    }
+    .greeting-text-p {
+      font-size: 16px;
+      line-height: normal;
+    }
+    .skills-main-div {
+      flex-direction: column
+    }
+    .skills-text-div {
+      margin-left: 0px;
+      margin: 20px;
+    }
+    .skills-text {
+      font-size: 16px;
+    }
+    .skills-text-subtitle {
+      font-size: 16px;
+      text-align: center;
+    }
+    .skills-image-div {
+      /* display: none; */
+      order: 2;
+    }
+  }
+  .skills-text-div {
+    margin-left: 20px;
   }
   
